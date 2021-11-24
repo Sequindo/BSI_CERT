@@ -75,6 +75,11 @@ index 307386c..e69de29 100644
 -\ No newline at end of file
 diff --git a/main.cpp b/main.cpp
 index 273ec34..d8810ce 100644
+
+Autorzy patcha:
+
+Kacper Nowak
+Jakub Ziółkowski
 --- a/main.cpp
 +++ b/main.cpp
 @@ -1,18 +1,19 @@
