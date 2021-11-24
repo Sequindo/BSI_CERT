@@ -3,11 +3,19 @@
 #include <vector>
 
 struct A {
-    int* arrA = new int[10]{2};
+    int* arrA;
+    A() {
+        arrA = new int[10]{2};
+    }
+    ~A() { delete[] arrA; }
 };
 
 struct B {
-    int* arrB = new int[10000000000]{2};
+    int* arrB;
+    B() {
+        arrB = new int[10000000000]{2};
+    }
+    ~B() { delete[] arrB; }
 };
 
 struct C {
